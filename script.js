@@ -19,9 +19,9 @@ myForm.addEventListener('submit', async (e) => {
   console.log(scoreBat[0].competition.name)
   console.log(scoreBat[0].videos[0].embed)
 
-  // iterating with the for loop method
+  // iterating with the for loop method so as to reduce the length of the array
   
-  for(let index = 0; (index < scoreBat.length-50); index++) {
+  for(let index = 0; (index < scoreBat.length-60); index++) {
     myParagraph.innerHTML += `
     <h2>${scoreBat[index].title}</h2>
     <h4>${scoreBat[index].competition.name}</h4>
