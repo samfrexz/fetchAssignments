@@ -1,0 +1,30 @@
+ [
+  {
+    "id": "001",
+    "userName": "samferxz",
+    "hobbies": "reading and internet surfing",
+    "firstName": "samuel",
+    "lastName": "Damilola",
+    "regDate": "2020"
+  },
+  
+  {
+    "id": "002",
+    "userName": "frexz",
+    "hobbies": "reading and internet surfing",
+    "firstName": "Dammy",
+    "lastName": "Segun",
+    "regDate": "2019"
+  },
+
+  {
+    "id": "003",
+    "userName": "scope",
+    "hobbies": "reading",
+    "firstName": "Elisha",
+    "lastName": "Nehemiah",
+    "regDate": "2018"
+  }
+  
+ ]
+ 
