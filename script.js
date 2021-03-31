@@ -20,12 +20,12 @@ myForm.addEventListener('submit', async (e) => {
   console.log(scoreBat[0].videos[0].embed)
 
   // iterating with the for loop method
-  let i = 0;
-  for(let i = 0; i < scoreBat.length; i++) {
+  
+  for(let index = 0; (index < scoreBat.length-50); index++) {
     myParagraph.innerHTML += `
-    <h2>${scoreBat[i].title}</h2>
-    <h4>${scoreBat[i].competition.name}</h4>
-    <p>${scoreBat[i].videos[0].embed}</p>
+    <h2>${scoreBat[index].title}</h2>
+    <h4>${scoreBat[index].competition.name}</h4>
+    <p>${scoreBat[index].videos[0].embed}</p>
     `
   }
   // using the Array forEach method to loop through
